@@ -7,11 +7,13 @@ summa_negative1 = 3 - summa_positive1
 print('Answer is:\n', '\tpositive:', summa_positive1, '\n\tnegative:', summa_negative1)
 
 #variant2
-number1 = str()
-number2 = str()
-number3 = str()
+number1 = str(number1)
+number2 = str(number2)
+number3 = str(number3)
 summa_negative = (number1.startswith('-')) + (number2.startswith('-')) + (number3.startswith('-'))
 summa_positive = 3 - summa_negative
 print('Answer is:\n', '\tpositive:', summa_positive, '\n\tnegative:', summa_negative)
+print(number1)
+
 
 
