@@ -11,6 +11,4 @@ if number3 < 0:
     answer_negative = answer_negative + 1
 answer_positive = 3 - answer_negative
 
-print('Answer is:\n')
-print('\tpositive:', answer_positive)
-print('\tnegative:', answer_negative)
+print('Answer is:\n', '\tpositive:', answer_positive, '\n', '\tnegative:', answer_negative)
