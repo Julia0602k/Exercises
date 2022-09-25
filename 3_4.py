@@ -13,7 +13,7 @@ number3 = str(number3)
 summa_negative = (number1.startswith('-')) + (number2.startswith('-')) + (number3.startswith('-'))
 summa_positive = 3 - summa_negative
 print('Answer is:\n', '\tpositive:', summa_positive, '\n\tnegative:', summa_negative)
-print(number1)
+
 
 
 
