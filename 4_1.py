@@ -2,6 +2,7 @@
 list4_1 = []
 n = 1
 list4_1.append(2 ^ n)
-n = (n + 1)
-print (list4_1)
 
+print(list4_1)
+
+n = (n + 1)
