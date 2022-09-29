@@ -2,7 +2,7 @@
 n = int(input('Write n: '))
 m = int(input('Write m: '))
 k = int(input('Write k: '))
-k += 1
+k = m
 number = 0
 list1 = []
 while number <= n:
