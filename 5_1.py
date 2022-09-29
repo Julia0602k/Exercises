@@ -6,9 +6,8 @@ k += 1
 number = 0
 list1 = []
 while number <= n:
-    if k % m:
+    if not k % m:
         list1.append(k)
         number = number + 1
         k *= m
-    else k *= m
-print(list1)
+ print(list1)
