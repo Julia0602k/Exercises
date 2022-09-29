@@ -3,10 +3,10 @@ n = int(input('Write n: '))
 m = int(input('Write m: '))
 k = int(input('Write k: '))
 k += 1
-number = int()
-list1 = ()
+number = 0
+list1 = []
 while number <= n:
    if k % m:
        number += 1
-       list1.append(k)
+       list1.append (k)
 print(list1)
