@@ -9,3 +9,4 @@ while number <= n:
         number = number + 1
         print(k)
 
+
