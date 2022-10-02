@@ -7,7 +7,6 @@ def func_reverse1(list):
     n = int(len(list))
     i = 1
     for i in range(i, n+1, -1):
-        return list
         print(list)
 
 func_reverse1(list1)
