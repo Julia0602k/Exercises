@@ -25,7 +25,7 @@ text1 = text1.lower()
 list1 = text1.split(' ')
 i = 0
 def text_to_morse(text1):
-    for i in list1(j):
+    for i in list1():
         dict_morze.get(j)
 
 text_to_morse(text1)
