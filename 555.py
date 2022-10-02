@@ -15,8 +15,7 @@
 #    n = input('Write a number')
 #print('the end')
 
-text1 = input('Write a text: ')
-count.text1()
+
 
 
 
