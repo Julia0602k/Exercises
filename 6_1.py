@@ -7,5 +7,7 @@ def bin_number(number1) -> str:
         number1 //= 2
     binary += str(number1)
     return binary[::-1]
+    print(binary)
 
-print(bin_number)
+bin_number(number1)
+
