@@ -10,7 +10,7 @@ def decimal_number_to_bin(number1) -> str:
 
 print (decimal_number_to_bin(number1))
 
-binary1 = input('Write a number (bin): ')
+binary1 = decimal_number_to_bin(number1)
 def bin_number_to_decimal(binary1: str) -> int:
     number2 = 0
     for i in binary1:
