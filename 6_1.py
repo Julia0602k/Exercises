@@ -21,4 +21,3 @@ def bin_number_to_decimal(binary1: str) -> int:
 print(bin_number_to_decimal(binary1))
 
 
-
