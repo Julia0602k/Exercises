@@ -22,11 +22,10 @@ if simbol == '+' or simbol == '-' or simbol == '*' or simbol == '/':
         print(num1 - num2)
     elif simbol == '*':
         print(num1 * num2)
+    elif num2 != 0:
+        print(num1 / num2)
     else:
-        if simbol == '/' and num2 != 0:
-            print(num1 / num2)
-        else:
-            print('Делить на 0 нельзя')
+        print("Can't divide by zero!")
 else:
     print('Write a correct simbol!')
 
